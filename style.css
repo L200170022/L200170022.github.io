@@ -1,0 +1,100 @@
+.mynavbar{
+    margin-top: 10px;
+}
+
+.mynavbar li.nav-item{
+    padding-left: 30px;
+    font-family: 'Montserrat-Regular';
+}
+
+.mynavbar li a{
+    color: #010202;
+}
+
+.product-information{
+    padding: 8% 0% 8% 0%;
+}
+
+.product-information .product-content{
+    margin-top: 40px;
+}
+
+.product-information .product-content .title{
+    color: #010202;
+    margin: 0px;    
+}
+
+.product-information .product-content .caption{
+    color: #010202;
+    font-size: 52px;
+    font-family: 'Montserrat-Thin';
+    margin-bottom: 50px;
+}
+
+.product-information .product-content .caption .bold{
+    font-family: 'Montserrat-Bold';
+}
+
+.product-information .product-content .btn-buy{
+    color: #fff;
+    background: #E73137;
+    font-size: 16px;
+    font-family: 'Montserrat-Bold';
+    padding: 13px 26px 13px 26px;
+    margin-right: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    
+}
+
+.product-information .product-content .btn-buy:hover{
+    background: none;
+    border: 1px solid #010202;
+    color: #010202;
+    transition: all 0.6s;
+}
+
+.product-information .product-content .btn-basic{
+    color: #8d8d8d;
+    text-decoration: none;
+}
+
+.another-images{
+    margin-top: 40px;
+}
+
+.another-images .image{
+    padding-right: 20px;
+}
+
+.another-images .image img{
+    border: 1px solid #010202;
+    border-radius: 3px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    color: #010202;
+    text-align: center;
+    font-family: 'Montserrat-Regular'
+ }
+
+/* My Font */
+@font-face{
+    font-family: Montserrat-Regular;
+    src : url(Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Thin;
+    src: url(Montserrat-Thin.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(Montserrat-Bold.ttf);
+}
